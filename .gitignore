@@ -15,3 +15,5 @@
 # vendor/
 
 .aws-sam/
+
+samconfig.toml

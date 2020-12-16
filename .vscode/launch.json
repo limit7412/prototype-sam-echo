@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "API prototype-sam-echo:SampleFunction",
+      "invokeTarget": {
+        "target": "api",
+        "templatePath": "template.yaml",
+        "logicalId": "SampleFunction"
+      },
+      "api": {
+        "path": "/",
+        "httpMethod": "get",
+        "payload": {
+          "json": {}
+        }
+      }
+    }
+  ]
+}
